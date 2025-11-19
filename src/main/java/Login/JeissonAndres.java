@@ -20,7 +20,7 @@ public class JeissonAndres {
         System.out.println("Zoologico SURA 🙉");
         System.out.println("**********************");
 
-        while (intentos <3) {
+        while (intentos <4) {
 
             System.out.print("Ingrese su correo📨: ");
             correoDigitadoUsuario=leerTeclado.nextLine();
@@ -36,9 +36,9 @@ public class JeissonAndres {
 
             }else{
                 intentos++;
-                System.out.println("Acceso denegado, " + intentos + " de 3 ");
+                System.out.println("Acceso denegado, " + intentos + " de 4");
             }
-            if (intentos.equals(3)) {
+            if (intentos.equals(4)) {
                 System.out.println("Acceso Denegado Por Maximo De Intentos❌");
             }
         }
